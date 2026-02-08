@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.set_page_config(page_title="データ分析サンプル")
 st.title("📈 データ分析サンプル")
 st.write("ランダムなデータを生成して、グラフをリアルタイム表示します。")
 
